@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(225, 255, 225);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center
+}
+.headers {
+  text-align: center;
+}
+.article {
+  display: inline-block;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 27%;
+}
+.aheader {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+.abody {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+} 
