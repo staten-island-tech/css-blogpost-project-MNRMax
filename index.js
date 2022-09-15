@@ -10,10 +10,10 @@ const requestListener = function (req, res) {
     res.setHeader("Content-Type", "text/css");
     res.writeHead(200);
     fs.createReadStream("style.css").pipe(res);
-  } else if (req.url == "/meme.png") {
-    res.setHeader("Content-Type", "image/webp");
+  } else if (req.url == "/image.jpg") {
+    res.setHeader("Content-Type", "image/jpg");
     res.writeHead(200);
-    fs.createReadStream("meme.webp").pipe(res);
+    fs.createReadStream("image.jpg").pipe(res);
   } else {
     res.setHeader("Content-Type", "text/html");
     res.writeHead(200);

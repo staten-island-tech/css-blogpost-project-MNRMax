@@ -15,17 +15,31 @@
       <h1>MNRMax Blogpost</h1>
       <h2>The Best Blogpost</h2>
     </div>
-    <div class="article" id="link1">
+    <div class="article" id="link1" onclick="click1();">
       <p class="aheader">Title 1</p>
+      <img id="image1" class="aritcle-image" src="image.jpg">
       <p class="abody">Body 1</p>
     </div>
-    <div class="article" id="link2">
+    <div class="article" id="link2" onclick="click2();">
       <p class="aheader">Title 2</p>
+      <img id="image2" class="aritcle-image" src="image.jpg">
       <p class="abody">Body 2</p>
     </div>
-    <div class="article" id="link3">
+    <div class="article" id="link3" onclick="click3();">
       <p class="aheader">Title 3</p>
+      <img id="image3" class="aritcle-image" src="image.jpg">
       <p class="abody">Body 3</p>
     </div>
   </body>
+  <script>
+    function click1() {
+      alert(`You clicked on article 1`)
+    }
+    function click2() {
+      alert(`You clicked on article 2`)
+    }
+    function click3() {
+      alert(`You clicked on article 3`)
+    }
+  </script>
 </html>
