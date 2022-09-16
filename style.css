@@ -1,14 +1,26 @@
 body {
   background-color: rgb(225, 255, 225);
   font-family: 'Montserrat', sans-serif;
+}
+.main {
+  font-family: 'Montserrat', sans-serif;
   text-align: center
+}
+.logo {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  width : 5%;
+  background:white;
+  border-radius: 10px;
+  border: 3px solid black;
 }
 .headers {
   text-align: center;
 }
 .article {
   display: inline-block;
-  background-color: white;
+  background-color:white;
   border: 3px solid black;
   border-radius: 10px;
   width: 27%;
