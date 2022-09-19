@@ -18,6 +18,10 @@ const requestListener = function (req, res) {
     res.setHeader("Content-Type", "image/webm");
     res.writeHead(200);
     fs.createReadStream("logo.webp").pipe(res);
+  } else if (req.url == "/queen.jpg") {
+    res.setHeader("Content-Type", "image/jpg");
+    res.writeHead(200);
+    fs.createReadStream("queen.jpg").pipe(res);
   } else {
     res.setHeader("Content-Type", "text/html");
     res.writeHead(200);
