@@ -18,6 +18,12 @@ body {
 .headers {
   text-align: center;
 }
+#h2 {
+  margin-bottom: 2px;
+}
+#h3 {
+  margin-top: 2px;
+}
 .article {
   vertical-align: top;
   display: inline-block;
